@@ -1,8 +1,10 @@
 html, body {
-    height:100%;
+  height:100%;
 } 
 
 body {
+  display:flex;
+  align-items:center;
   background-color: #8BC6EC;
   background-image: linear-gradient(135deg, #C9D6FF 0%, #E2E2E2 100%);
   background-size: auto 100%;
@@ -11,13 +13,14 @@ body {
 }
 
 .card {
-        margin: 0 auto;
-        float: none;
-        margin-bottom: 10px;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
 }
 
 .py {
-  padding-top: 250px !important;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .icon {
