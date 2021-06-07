@@ -3,32 +3,48 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="./static/css/style.css">
+  <link rel="stylesheet" href="./static/fontawesome/css/all.min.css">
   <title>Frank Montalvo Ochoa</title>
 </head>
 
 <body>
 
   <div class="container">
-    <div class="card shadow-lg p-3 mb-5 bg-white rounded py" style="max-width: 540px;">
-      <div class="row no-gutters">
-        <div class="col-md-4">
-          <img class="card-img" src="img/profile.jpg" height="170" alt="fgmo">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Frank Montalvo Ochoa</h5>
-            <p class="card-text" align="justify">Ingeniero de sistemas, programador autodidacta y musico.</p>
-            <p class="card-text" align="center"><small class="text-muted"><a class="icon"
-                  href="https://github.com/fmontalvoo" target="_blank"><i class="fa fa-github"></i></a></small></p>
-          </div>
-        </div>
-      </div>
+    <div class="card">
+      <header>
+        <h1 class="title">Frank Montalvo Ochoa</h1>
+      </header>
+
+        <section class="profile">
+          <img src="./static/img/profile.jpg" alt="Frank Montalvo Ochoa" class="photo">
+          <!-- <h3 class="profile">Email</h3> -->
+        </section>
+
+      <section class="content">
+        <h2 class="header-title">
+          <i class="fas fa-user-circle"></i>
+          Sobre mi
+        </h2>
+        <p class="paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident at facere, quidem eligendi libero dolorem
+          inventore excepturi. Autem id reprehenderit nobis explicabo suscipit ad doloremque blanditiis, quos, harum
+          tempore obcaecati?
+        </p>
+
+        <h2 class="header-title">
+          <i class="fas fa-graduation-cap"></i>
+          Educación
+        </h2>
+        <p class="paragraph">
+          Universidad Politécnica Salesiana
+        </p>
+      </section>
+
     </div>
-    
   </div>
 
 </body>
