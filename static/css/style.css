@@ -24,6 +24,15 @@ img{
   max-width: 100%;
 }
 
+dl{
+  margin: 1.4em 2.4em;
+}
+
+dt{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 .container{
   height: 100vh;
   display: flex;
@@ -54,20 +63,31 @@ img{
 }
 
 .content{
-  margin-left: 31%;
+  max-width: 100%;
+  background-color: red;
+  display: inline-block;
+  font-size: 1em;
   position: absolute;
 }
 
 .profile{
   top: 0;
-  max-width: 30%;
+  width: 100%;
+  max-width: 27%;
+  background-color: cyan;
+  font-size: 1em;
   position: sticky;
-  
+  display: inline-block;  
 }
 
-h3.profile{
-  margin-left: 2.5em;
+.profile-data{
+  margin-left: 0.5em;
+  display: inline-block;
+
 }
+
+/* h3.profile{
+} */
 
 .title{
   text-align: center;
@@ -84,10 +104,12 @@ h3.profile{
 .header-title{
   font-size: 1.8em;
   margin-top: 2em;
+  margin-left: 0.5em;
 }
 
 .paragraph{
   text-align: justify;
+  line-height: 1.8em;
   margin: 1.4em 2.4em;
 }
 
@@ -98,18 +120,38 @@ h3.profile{
   margin: 2em 3em 2em 1em;
 }
 
-.fa-user-circle, .fa-graduation-cap{
+.fa-envelope,
+.fa-briefcase,
+.fa-user-circle,
+.fa-graduation-cap {
   font-size: 1.4em;
 }
 
 @media (max-width: 800px){
-  .content{
-    margin-left: 5%;
-    position: absolute;
+
+  .card{
+    max-height: 600px;
   }
 
-  .profile{
-    display: inline-block;
-    max-width: 100%;
+  .content{
+    font-size: 1.4em;
+    position: absolute;
+    display: block;
   }
+  
+  .profile{
+    display: none;
+    max-width: 100%;
+    font-size: 1.4em;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+  }
+
+  .profile-data{
+    display: none;
+  }
+
 }
