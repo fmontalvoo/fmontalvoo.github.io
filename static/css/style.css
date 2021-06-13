@@ -2,7 +2,7 @@
 gris-oscuro: #353535
 blanco: #F9F5FF
 celeste: #6190E8
-gras-claro: #7A6F6F
+gris-claro: #7A6F6F
 rojo: #DE1818
 */
 
@@ -31,6 +31,17 @@ dl{
 dt{
   margin-top: 1em;
   margin-bottom: 1em;
+  text-align: justify;
+}
+
+a{
+  color: #061826;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover{
+  opacity: 0.5;
 }
 
 .container{
@@ -64,7 +75,6 @@ dt{
 
 .content{
   max-width: 100%;
-  background-color: red;
   display: inline-block;
   font-size: 1em;
   position: absolute;
@@ -74,7 +84,7 @@ dt{
   top: 0;
   width: 100%;
   max-width: 27%;
-  background-color: cyan;
+  /* background-color: cyan; */
   font-size: 1em;
   position: sticky;
   display: inline-block;  
@@ -102,7 +112,7 @@ dt{
 }
 
 .header-title{
-  font-size: 1.8em;
+  font-size: 1.4em;
   margin-top: 2em;
   margin-left: 0.5em;
 }
@@ -120,10 +130,14 @@ dt{
   margin: 2em 3em 2em 1em;
 }
 
+.fa-award,
+.fa-github,
+.fa-gitlab,
 .fa-envelope,
+.fa-linkedin,
 .fa-briefcase,
 .fa-user-circle,
-.fa-graduation-cap {
+.fa-graduation-cap{
   font-size: 1.4em;
 }
 
@@ -134,7 +148,7 @@ dt{
   }
 
   .content{
-    font-size: 1.4em;
+    font-size: 1.2em;
     position: absolute;
     display: block;
   }
@@ -152,6 +166,12 @@ dt{
 
   .profile-data{
     display: none;
+  }
+
+  .header-title{
+    font-size: 1.2em;
+    margin-top: 1.4em;
+    margin-left: 0.5em;
   }
 
 }
