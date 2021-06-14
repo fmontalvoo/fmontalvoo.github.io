@@ -10,7 +10,7 @@ async function loadCertificates() {
             <td>${certificate.title}</td>
             <td>${certificate.description}</td>
             <td>
-                <a href="${certificate.path}">Ver más</a>
+                <a href="${certificate.path}" target="_blank">Ver más</a>
             </td>
         </tr>
     `

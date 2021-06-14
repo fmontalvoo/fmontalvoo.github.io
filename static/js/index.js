@@ -1,4 +1,4 @@
-let links = document.querySelectorAll('a');
+let links = document.querySelectorAll('a#link');
 
 for (let a of links) {
     a.addEventListener('click', (event) => {
