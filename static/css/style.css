@@ -37,8 +37,8 @@ dt{
 }
 
 a{
-  color: #0B41A3;
   cursor: pointer;
+  color: #0B41A3;
   text-decoration: none;
 }
 
@@ -136,8 +136,8 @@ a:hover{
 .table th, .table td{
   padding: 1em;
   text-align: left;
-  /* text-align: justify; */
 }
+
 
 .table tr:nth-child(even){background-color: #B6C8D6;}
 
@@ -171,7 +171,7 @@ a:hover{
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  background-color: #FB2343;
+  background-color: #DE1818;
   box-shadow: 2px 2px 2px #3D444A;
 }
 
@@ -250,5 +250,8 @@ a.close:hover{
     text-align: left;
   }  
 
+  .position{
+    display: none;
+  }
 
 }
