@@ -4,6 +4,7 @@ blanco: #F9F5FF
 celeste: #6190E8
 gris-claro: #7A6F6F
 rojo: #DE1818
+azul: #0B41A3
 */
 
 @font-face{
@@ -13,6 +14,7 @@ rojo: #DE1818
 
 html{
   font-size: 12px;
+  line-height: 1.4em;
   font-family: PressStart;
 }
 
@@ -35,7 +37,7 @@ dt{
 }
 
 a{
-  color: #061826;
+  color: #0B41A3;
   cursor: pointer;
   text-decoration: none;
 }
@@ -96,9 +98,6 @@ a:hover{
 
 }
 
-/* h3.profile{
-} */
-
 .title{
   text-align: center;
   text-transform: uppercase;
@@ -119,7 +118,6 @@ a:hover{
 
 .paragraph{
   text-align: justify;
-  line-height: 1.8em;
   margin: 1.4em 2.4em;
 }
 
@@ -130,18 +128,74 @@ a:hover{
   margin: 2em 3em 2em 1em;
 }
 
+.table{
+  width: 100%;
+  border-spacing: 0;
+}
+
+.table th, .table td{
+  padding: 1em;
+  text-align: left;
+  /* text-align: justify; */
+}
+
+.table tr:nth-child(even){background-color: #B6C8D6;}
+
 .fa-award,
+.fa-brain,
 .fa-github,
 .fa-gitlab,
 .fa-envelope,
 .fa-linkedin,
 .fa-briefcase,
+.fa-certificate,
 .fa-user-circle,
 .fa-graduation-cap{
   font-size: 1.4em;
 }
 
+
+.actions{
+  top: 1em;
+  right: 1em;
+  position: absolute;
+}
+
+.close{
+  width:32px;
+  height:32px;
+  display: flex;
+  cursor: pointer;
+  font-weight: 300;
+  color: #E8EBED;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: #FB2343;
+  box-shadow: 2px 2px 2px #3D444A;
+}
+
+a.close:focus{
+  background-color: #DD0426;
+}
+
+a.close:hover{
+  opacity:0.7;
+}
+
+.position{
+  padding: 0.5em;
+  color: #F9F5FF;
+  margin-left: 0.5em;
+  border-radius: 1em;
+  background-color: #7A6F6F;
+}
+
 @media (max-width: 800px){
+
+  .title{
+    font-size: 1.4em;
+  }
 
   .card{
     max-height: 600px;
@@ -173,5 +227,28 @@ a:hover{
     margin-top: 1.4em;
     margin-left: 0.5em;
   }
+
+  th{
+    display: none;
+  }
+  
+  td{
+    width: 100%;
+    display: block;
+  }
+
+  tr{
+    padding: 1em;
+  }
+  
+  .table{
+    padding: 0.5em;
+  }
+
+  .table th, .table td{
+    padding: 1em 0em 1em 0em;
+    text-align: left;
+  }  
+
 
 }

@@ -1,0 +1,9 @@
+{
+    "certificates": [
+        {
+            "title": "Registro de título",
+            "description": "Registro de título de tercer nivel.",
+            "path": "../static/certificates/Titulo_Senescyt.pdf"
+        }
+    ]
+}
