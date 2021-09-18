@@ -4,6 +4,11 @@
             "title": "Conversor",
             "description": "Con esta aplicación podrás realizar conversiones entre distintas unidades numéricas.",
             "path": "https://play.google.com/store/apps/details?id=com.fmontalvoo.converter"
+        },
+        {
+            "title": "Uroba",
+            "description": "Tienda en línea dedicada a la venta de utensilios de cocina fabricados a partir de roca volcánica.",
+            "path": "https://uroba.shop/"
         }
     ]
 }
