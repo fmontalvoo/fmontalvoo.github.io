@@ -1,4 +1,4 @@
-async function loadCertificates() {
+async function loadProjects() {
     const response = await fetch('../static/json/projects.json');
     const json = await response.json();
 
@@ -19,5 +19,5 @@ async function loadCertificates() {
 }
 
 document.addEventListener("DOMContentLoaded", function (event) {
-    loadCertificates();
+    loadProjects();
 });
