@@ -41,6 +41,11 @@
       "path": "../static/certificates/Certificate_C1_EDUNINE2020.pdf"
     },
     {
+      "title": "JavaScript Algorithms and Data Structures",
+      "description": "JavaScript es un lenguaje de scripting que puedes utilizar para hacer que las páginas web sean interactivas. Es una de las principales tecnologías de la web, junto con HTML y CSS, y es soportada por todos los navegadores modernos.",
+      "path": "../static/certificates/JavaScript_Algorithms_and_Data_Structures.pdf"
+    },
+    {
       "title": "Introducción  a Go.Data",
       "description": "Go.Data es un plataforma que permita la recolección de información en terreno sobre casos (con un formulario para caso que incluye resultados de laboratorio, información de hospitalización y otras variables) y contactos (incluyendo su seguimiento).",
       "path": "../static/certificates/godata-es_ConfirmationOfParticipation.pdf"
