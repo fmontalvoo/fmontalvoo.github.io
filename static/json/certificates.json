@@ -1,89 +1,99 @@
 {
-    "certificates": [
-        {
-            "title": "Título universitario",
-            "description": "Registro de título de tercer nivel.",
-            "path": "../static/certificates/Titulo_Senescyt.pdf"
-        },
-        {
-            "title": "CCNA I",
-            "description": "CCNA Routing & Switching:Introducción a redes",
-            "path": "../static/certificates/CCNA_I.pdf"
-        },
-        {
-            "title": "Carta CCNA I",
-            "description": "Carta de mérito es un documento firmado por el CEO de Cisco, Chuck Robbins, que se otorga a los alumnos e instructores que logran el 75% o más en el examen final del curso",
-            "path": "../static/certificates/CCNA+1+2016-2017+G2-Letter.pdf"
-        },
-        {
-            "title": "CCNA II",
-            "description": "CCNA Routing and Switching: Principios básicos de routing y switching",
-            "path": "../static/certificates/CCNA_II.pdf"
-        },
-        {
-            "title": "Carta CCNA II",
-            "description": "Carta de mérito es un documento firmado por el CEO de Cisco, Chuck Robbins, que se otorga a los alumnos e instructores que logran el 75% o más en el examen final del curso",
-            "path": "../static/certificates/CISCOII_SEP2018-Letter.pdf"
-        },
-        {
-            "title": "NDG Linux Unhatched",
-            "description": "Proporciona una introducción a la línea de comandos de Linux.",
-            "path": "../static/certificates/NDG_Linux_Unhatc-certificate.pdf"
-        },
-        {
-            "title": "EDUNINE2020",
-            "description": "Certificados de participaciones en el congreso EDUNINE2020.",
-            "path": "../static/certificates/Certificate_C1_EDUNINE2020.pdf"
-        },
-        {
-            "title": "Introducción  a Go.Data",
-            "description": "Go.Data es un plataforma que permita la recolección de información en terreno sobre casos (con un formulario para caso que incluye resultados de laboratorio, información de hospitalización y otras variables) y contactos (incluyendo su seguimiento).",
-            "path": "../static/certificates/godata-es_ConfirmationOfParticipation.pdf"
-        },
-        {
-            "title": "Flutter: Tu guía completa de desarrollo para IOS y Android",
-            "description": "El curso cubre todo lo necesario crear aplicaciones móviles para IOS y Android, esto incluye su despliegue en las tiendas.",
-            "path": "../static/certificates/UC-2cfbcb6c-642e-4c4a-9a6f-a82216f5be87.pdf"
-        },
-        {
-            "title": "Flutter Intermedio: Diseños profesionales y animaciones",
-            "description": "Este curso tiene por objetivo enseñar a crear animaciones personalizadas y diseños atractivos para aplicaciones móviles.",
-            "path": "../static/certificates/UC-4b4511b2-0898-49a8-85c2-5cf45991dbd2.pdf"
-        },
-        {
-            "title": "Curso Profesional de Git",
-            "description": "Control de versiones con Git.",
-            "path": "../static/certificates/certificado-git.pdf"
-        },
-        {
-            "title": "Curso profesional de Go",
-            "description": "introducción al lenguaje de programación Go.",
-            "path": "../static/certificates/certificado-go.pdf"
-        },
-        {
-            "title": "Curso Profesional de JAVA",
-            "description": "Java es unos de los lenguajes más populares del mundo. Con este lenguajes puedes escribir programas y aplicaciones para cualquier plataforma, gracias a la JAVA Virtual Machine.",
-            "path": "../static/certificates/certificado-java.pdf"
-        },
-        {
-            "title": "Curso Profesional de JavaScript",
-            "description": "JavaScript es uno de los lenguajes más populares en la actualidad, se utiliza para desarrollar aplicaciones web completas, micro controladores, drones, aplicaciones de escritorio y mucho más.",
-            "path": "../static/certificates/certificado-js.pdf"
-        },
-        {
-            "title": "Single Page Applications con React",
-            "description": "Las Single Page Applications son páginas o aplicaciones web que delegan las responsabilidades de actualización y routing al cliente, programando la interactividad totalmente con JavaScript.",
-            "path": "../static/certificates/certificado-react-spa.pdf"
-        },
-        {
-            "title": "Curso Profesional de React",
-            "description": "Introducción a ReactJS. ",
-            "path": "../static/certificates/certificado-react.pdf"
-        },
-        {
-            "title": "Curso Profesional Desarrollo Web",
-            "description": "Es un curso extenso que abarca la introducción, los fundamentos, la práctica y la teoría.",
-            "path": "../static/certificates/certificado-web.pdf"
-        }
-    ]
+  "certificates": [
+    {
+      "title": "Título universitario",
+      "description": "Registro de título de tercer nivel.",
+      "path": "../static/certificates/Titulo_Senescyt.pdf"
+    },
+    {
+      "title": "CCNA I",
+      "description": "CCNA Routing & Switching:Introducción a redes",
+      "path": "../static/certificates/CCNA_I.pdf"
+    },
+    {
+      "title": "Carta CCNA I",
+      "description": "Carta de mérito es un documento firmado por el CEO de Cisco, Chuck Robbins, que se otorga a los alumnos e instructores que logran el 75% o más en el examen final del curso",
+      "path": "../static/certificates/CCNA+1+2016-2017+G2-Letter.pdf"
+    },
+    {
+      "title": "CCNA II",
+      "description": "CCNA Routing and Switching: Principios básicos de routing y switching",
+      "path": "../static/certificates/CCNA_II.pdf"
+    },
+    {
+      "title": "Carta CCNA II",
+      "description": "Carta de mérito es un documento firmado por el CEO de Cisco, Chuck Robbins, que se otorga a los alumnos e instructores que logran el 75% o más en el examen final del curso",
+      "path": "../static/certificates/CISCOII_SEP2018-Letter.pdf"
+    },
+    {
+      "title": "NDG Linux Essentials",
+      "description": "Este curso básico de Linux es ofrecido por Network Development Group (NDG).  Las habilidades que se enseñan en este curso son aplicables a una amplia gama de carreras incluyendo redes, desarrollo de software y administración de Linux.",
+      "path": "../static/certificates/NDG_Linux_Essent-certificate.pdf"
+    },
+    {
+      "title": "NDG Linux Unhatched",
+      "description": "Proporciona una introducción a la línea de comandos de Linux.",
+      "path": "../static/certificates/NDG_Linux_Unhatc-certificate.pdf"
+    },
+    {
+      "title": "EDUNINE2020",
+      "description": "Certificados de participaciones en el congreso EDUNINE2020.",
+      "path": "../static/certificates/Certificate_C1_EDUNINE2020.pdf"
+    },
+    {
+      "title": "Introducción  a Go.Data",
+      "description": "Go.Data es un plataforma que permita la recolección de información en terreno sobre casos (con un formulario para caso que incluye resultados de laboratorio, información de hospitalización y otras variables) y contactos (incluyendo su seguimiento).",
+      "path": "../static/certificates/godata-es_ConfirmationOfParticipation.pdf"
+    },
+    {
+      "title": "Flutter: Tu guía completa de desarrollo para IOS y Android",
+      "description": "El curso cubre todo lo necesario crear aplicaciones móviles para IOS y Android, esto incluye su despliegue en las tiendas.",
+      "path": "../static/certificates/UC-2cfbcb6c-642e-4c4a-9a6f-a82216f5be87.pdf"
+    },
+    {
+      "title": "Flutter Intermedio: Diseños profesionales y animaciones",
+      "description": "Este curso tiene por objetivo enseñar a crear animaciones personalizadas y diseños atractivos para aplicaciones móviles.",
+      "path": "../static/certificates/UC-4b4511b2-0898-49a8-85c2-5cf45991dbd2.pdf"
+    },
+    {
+      "title": "Flutter Avanzado: Lleva tu conocimiento al siguiente nivel",
+      "description": "Este curso profundiza aún más en el manejo del SDK de Flutter para la creación de aplicaciones móviles.",
+      "path": "../static/certificates/UC-3115d970-93ad-4fba-a240-ff8c27c81587.pdf"
+    },
+    {
+      "title": "Curso Profesional de Git",
+      "description": "Control de versiones con Git.",
+      "path": "../static/certificates/certificado-git.pdf"
+    },
+    {
+      "title": "Curso profesional de Go",
+      "description": "introducción al lenguaje de programación Go.",
+      "path": "../static/certificates/certificado-go.pdf"
+    },
+    {
+      "title": "Curso Profesional de JAVA",
+      "description": "Java es unos de los lenguajes más populares del mundo. Con este lenguajes puedes escribir programas y aplicaciones para cualquier plataforma, gracias a la JAVA Virtual Machine.",
+      "path": "../static/certificates/certificado-java.pdf"
+    },
+    {
+      "title": "Curso Profesional de JavaScript",
+      "description": "JavaScript es uno de los lenguajes más populares en la actualidad, se utiliza para desarrollar aplicaciones web completas, micro controladores, drones, aplicaciones de escritorio y mucho más.",
+      "path": "../static/certificates/certificado-js.pdf"
+    },
+    {
+      "title": "Single Page Applications con React",
+      "description": "Las Single Page Applications son páginas o aplicaciones web que delegan las responsabilidades de actualización y routing al cliente, programando la interactividad totalmente con JavaScript.",
+      "path": "../static/certificates/certificado-react-spa.pdf"
+    },
+    {
+      "title": "Curso Profesional de React",
+      "description": "Introducción a ReactJS. ",
+      "path": "../static/certificates/certificado-react.pdf"
+    },
+    {
+      "title": "Curso Profesional Desarrollo Web",
+      "description": "Es un curso extenso que abarca la introducción, los fundamentos, la práctica y la teoría.",
+      "path": "../static/certificates/certificado-web.pdf"
+    }
+  ]
 }
