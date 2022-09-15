@@ -1,3 +1,5 @@
+//// @ts-check
+
 const links = document.querySelectorAll('a#link');
 
 for (let a of links) {
@@ -7,9 +9,9 @@ for (let a of links) {
 
         const card = document.querySelector('.card'); // Busca un elemento por la clase card.
 
-        card.classList.remove('animate__fadeInLeft'); // Quita la animacion de entrada.
+        card?.classList.remove('animate__fadeInLeft'); // Quita la animacion de entrada.
 
-        card.classList.add('animate__fadeOutLeft'); // Agrega una animacion de salida.
+        card?.classList.add('animate__fadeOutLeft'); // Agrega una animacion de salida.
 
         // Navega a la pagina del href luego de 500 milisegundos.
         setTimeout(

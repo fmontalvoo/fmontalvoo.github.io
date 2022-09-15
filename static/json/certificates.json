@@ -26,6 +26,21 @@
       "path": "../static/certificates/CISCOII_SEP2018-Letter.pdf"
     },
     {
+      "title": "Angular: De cero a experto",
+      "description": "Este curso se enfoca en llevarte desde cero hasta poder crear aplicaciones de todo tipo, que van desde páginas web de una sola página (SPA - single page application) hasta conectarnos a una base de datos para realizar proceso de inserción, actualización, eliminación y selección de información.",
+      "path": "../static/certificates/UC-998273b9-b155-4a83-b10e-d66d4901049e.pdf"
+    },
+    {
+      "title": "Angular Avanzado: Lleva tus bases al siguiente nivel - MEAN",
+      "description": "MEAN, Google Signin, JWT, carga de archivos, lazyload, optimizaciones, Git, GitHub, panel administrativo",
+      "path": "../static/certificates/UC-db9a680b-06b4-4259-bf41-11b320b055a7.pdf"
+    },
+    {
+      "title": "Spring Framework 5 & Spring Boot 2 desde cero a experto 2022",
+      "description": "Inyección de dependencias, Contenedor y contextos IoC, Anotaciones, Spring MVC, Thymeleaf, RESTful, Formularios, Validaciones, Sesiones HTTP, Data JPA, Hibernate, Paginación, Transaction management, Spring Security, JWT, PDF, Excel, I18N, Uploads de archivos, Angular 5, Bootstrap 4, jQuery, WebFlux, Programación reactiva, MongoDB",
+      "path": "../static/certificates/UC-1b51056f-a476-4895-9e2b-2c8a13848c58.pdf"
+    },
+    {
       "title": "NDG Linux Essentials",
       "description": "Este curso básico de Linux es ofrecido por Network Development Group (NDG).  Las habilidades que se enseñan en este curso son aplicables a una amplia gama de carreras incluyendo redes, desarrollo de software y administración de Linux.",
       "path": "../static/certificates/NDG_Linux_Essent-certificate.pdf"
