@@ -41,6 +41,11 @@
       "path": "../static/certificates/UC-1b51056f-a476-4895-9e2b-2c8a13848c58.pdf"
     },
     {
+      "title": " Microservicios con Spring Boot y Spring Cloud Netflix Eureka",
+      "description": "Microservicios con Spring Boot 2, Eureka, Spring Cloud Gateway, LoadBalancer, Resilience4J, Rest, OAuth, Docker",
+      "path": "../static/certificates/UC-33d6a3bb-6032-4e72-82b7-3e3c01ba7fed.pdf"
+    },
+    {
       "title": "NDG Linux Essentials",
       "description": "Este curso básico de Linux es ofrecido por Network Development Group (NDG).  Las habilidades que se enseñan en este curso son aplicables a una amplia gama de carreras incluyendo redes, desarrollo de software y administración de Linux.",
       "path": "../static/certificates/NDG_Linux_Essent-certificate.pdf"
