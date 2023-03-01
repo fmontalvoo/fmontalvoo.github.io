@@ -86,6 +86,11 @@
       "path": "../static/certificates/UC-3115d970-93ad-4fba-a240-ff8c27c81587.pdf"
     },
     {
+      "title": "NORMA ISO 9001:2015",
+      "description": "9001:2015",
+      "path": "../static/certificates/CERTIFICADO-MONTALVO-OCHOA-FRANK-GABRIEL.pdf"
+    },
+    {
       "title": "Curso Profesional de Git",
       "description": "Control de versiones con Git.",
       "path": "../static/certificates/certificado-git.pdf"
