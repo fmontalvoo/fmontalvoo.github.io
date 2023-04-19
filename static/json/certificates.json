@@ -96,6 +96,16 @@
       "path": "../static/certificates/certificado-git.pdf"
     },
     {
+      "title": "Vue.js: De cero a experto",
+      "description": "Vuex, unit test, composition api, options api, autenticación, composables, deployment, file structure, lazy load.",
+      "path": "../static/certificates/UC-c42ccd70-aba7-425d-8770-b2f558f01e49.pdf"
+    },
+    {
+      "title": "Vue.js - Intermedio",
+      "description": "Vue 3, Pinia, Vite, TypeScript, Composition API, Script Setup, Vue-Query, Quasar, Caché.",
+      "path": "../static/certificates/UC-9f30b9d5-509f-4776-a47f-98f95df1707d.pdf"
+    },
+    {
       "title": "Curso profesional de Go",
       "description": "introducción al lenguaje de programación Go.",
       "path": "../static/certificates/certificado-go.pdf"
